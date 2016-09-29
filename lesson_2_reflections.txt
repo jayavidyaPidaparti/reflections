@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+We initialize a repository using 'git init'. Then a hidden directory called .git is created which contains the metadata about the repository. This is needed to keep track of any changes made in the repository. 
