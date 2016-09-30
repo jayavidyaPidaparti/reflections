@@ -24,3 +24,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result of merging two branches together is that we get a new version of the program file which is obtained by merging the two files in the two branches. 
 We represent it in the diagram the way we do because the new version of the file is obtained by merging the two files in two different branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros: The main advantage of Git's automatic merging is that the features in two branches can be easily combined into one file (merged file)
+Cons: The main disadvantage of Git's automatic merging is that 
+sometimes merge conflicts arise which cannot be easily resolved by the system/machine itself; here user's discretion is needed as to which lines have to be modified so that git can merge the files automatically.
