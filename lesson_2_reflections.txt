@@ -7,3 +7,20 @@ How is the staging area different from the working directory and the repository?
 Staging area contains the files that are needed to be kept track of any changes in them. When we perform commit these files in the staging area would be included in the repository.
 Working contains all the tracked and untracked files.
 The concept of staging area is very useful because it distinguishes between tracked files and untracked files when we do the commit. 
+
+How can you use the staging area to make sure that you have one commit per logical change?
+
+The staging area contains all the files that have been modified and staged for commit, but have not been committed yet. Using git diff --staged command helps us to see these changes and check the lines that have been modified and ready to be committed. This way by comparing the staging area with the most recent commit in the repository, we can make sure we have one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Sometimes we would wish to make some experimental changes to our program and work on those experimental changes. We would not like to modify the master. In such siuations, branches would be helpful in keeping our history organized. Branches help us in maintaining alternative versions of our program without modifying/changing the main version.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help us to analyze whether a given commit is reachable and help us see the list of parent commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that we get a new version of the program file which is obtained by merging the two files in the two branches. 
+We represent it in the diagram the way we do because the new version of the file is obtained by merging the two files in two different branches.
