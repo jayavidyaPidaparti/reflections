@@ -10,4 +10,8 @@ We might want to always pull changes manually, so that any changes made in the r
 Describe the differences between forks, clones and branches. When would you use one instead of another?
 
 Forking is making a copy of someone else's repository into your own repository on GitHub. Clone is copy of a repository from Github to your local machine. A branch is created on the local machine only. 
-We would use fork when we want to copy files from someone else's repository to our own on GitHub and then making changes to this repository without affecting the original one. We would use a clone when we want to copy a repository from GitHub to local machine and then making changes on local machine without affecting the remote. We would use branches on local machine only when we want to make any experimental changes. 
+We would use fork when we want to copy files from someone else's repository to our own on GitHub and then making changes to this repository without affecting the original one. We would use a clone when we want to copy a repository from GitHub to local machine and then making changes on local machine without affecting the remote. We would use branches on local machine only when we want to make any experimental changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The main benefit of having a copy of the last known state of the remote stored locally is that we will have copy of the remote repository when we go offline, then we could make any changes to the local repository offline, merge the changes and save our changes to the remote when we go online using git push.  
