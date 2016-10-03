@@ -14,4 +14,13 @@ We would use fork when we want to copy files from someone else's repository to o
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-The main benefit of having a copy of the last known state of the remote stored locally is that we will have copy of the remote repository when we go offline, then we could make any changes to the local repository offline, merge the changes and save our changes to the remote when we go online using git push.  
+The main benefit of having a copy of the last known state of the remote stored locally is that we will have copy of the remote repository when we go offline, then we could make any changes to the local repository offline, merge the changes and save our changes to the remote when we go online using git push.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using Git or GitHub, I may collaborate using Google Docs or Dropbox. But that would be harder and more difficult.
+Using Git or GitHub for collaboration would be easier, as I can share my work with others and also others can review my work/files and provide comments, suggest changes through GitHub.
+
+When would you want to make changes in a separate branch rather than directly on master? What benefits does each approach have?
+I would want to make changes in a separate branch rather than directly on master, when I want to introduce some changes in my program and share these changes with others, so that others can view these changes and then provide their feedback. Then after getting the feedback, I would like to incorporate these changes, commit and merge with the master.
+It's easier to make changes directly on master, but that would not allow me to maintain an experimental version of my program. 
